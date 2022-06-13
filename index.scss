@@ -19,7 +19,8 @@ body {
 }
 
 .container {
-  width: 50%;
+  width: 80%;
+  max-width: 40rem;
   padding: 5em;
   border: 3px solid $text-color;
   border-radius: 10px;
@@ -30,6 +31,10 @@ body {
   align-items: center;
   background-color: white;
   color: $text-color;
+
+  .age {
+    font-size: clamp(1.5rem, 2vw, 3rem);
+  }
 }
 
 .form {
